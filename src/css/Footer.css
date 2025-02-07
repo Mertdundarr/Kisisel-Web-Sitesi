@@ -1,0 +1,60 @@
+.footer {
+    display: flex;
+    justify-content: space-between; /* Sol ve sağ içeriği yayar */
+    align-items: center;
+    padding: 40px 60px; /* Sağdan ve soldan boşluklar */
+    background-color: #f9fafb; /* Açık gri arka plan */
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .footer-text {
+    font-size: 1.5rem;
+    color: #1e293b; /* Koyu gri yazı */
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .footer-email {
+    color: #b91c1c; /* Koyu kırmızı yazı */
+    font-size: 1rem;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  
+  .footer-right {
+    display: flex;
+    gap: 20px; /* Linkler arasındaki boşluk */
+  }
+  
+  .footer-link {
+    color: #1e293b; /* Koyu gri yazı */
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-link:hover {
+    color: #4f46e5; /* Mavi hover efekti */
+  }
+  
+  /* Responsive Tasarım */
+  @media (max-width: 768px) {
+    .footer {
+      flex-direction: column; /* Küçük ekranlarda dikey hizalama */
+      text-align: center;
+      padding: 20px 30px;
+    }
+  
+    .footer-right {
+      justify-content: center;
+      margin-top: 20px; /* Üstten boşluk */
+    }
+  }
+  

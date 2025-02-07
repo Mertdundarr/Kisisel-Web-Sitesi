@@ -1,0 +1,189 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  background: #ffffff;
+  max-width: 1500px;
+  border-radius: 10px;
+  padding: 50px;
+}
+
+.header-text {
+  flex: 1;
+  order: 1; /* Metni sola alır */
+}
+
+.header-image {
+  flex: 1;
+  max-width: 400px;
+  order: 2; /* Resmi sağa alır */
+}
+
+.name {
+  font-size: 1.5rem;
+  color: #4f46e5;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.name-line {
+  display: inline-block;
+  width: 120px;
+  height: 1px;
+  background-color: #4f46e5;
+  margin-right: 8px;
+}
+
+.name-text {
+  display: inline-block;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-top: 10px;
+}
+
+.description {
+  margin-top: 20px;
+  color: #4b5563;
+  line-height: 1.6;
+}
+
+.buttons {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+button.hire-me-button,
+a.github-button,
+a.linkedin-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border: 2px solid #4f46e5;
+  color:#4f46e5;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+button.hire-me-button:hover,
+a.github-button:hover,
+a.linkedin-button:hover {
+  background-color: #4f46e5;
+  color: white;
+}
+
+button.hire-me-button .icon,
+a.github-button .icon,
+a.linkedin-button .icon {
+  margin-right: 8px;
+}
+
+.header-image img {
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+  height: auto;
+}
+
+.skills-section {
+  margin-top: 80px;
+  background: #ffffff;
+  max-width: 1500px;
+  border-radius: 10px;
+  padding: 50px;
+}
+
+.skills-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.skill-card {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.skill-name {
+  font-size: 1.25rem;
+  color: #4f46e5;
+  font-weight: bold;
+}
+
+.skill-description {
+  margin-top: 10px;
+  color: #4b5563;
+}
+
+.footer-line hr {
+  border: none;
+  border-top: 0.5px solid #4f46e5;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .header-section {
+    flex-direction: column; /* Dikey hizalama */
+    text-align: center;
+  }
+
+  .header-text {
+    order: 1; /* Metni üstte tutar */
+  }
+
+  .header-image {
+    order: 2; /* Resmi alta alır */
+    max-width: 100%; /* Daha iyi görünüm için genişliği sınırla */
+  }
+
+  .buttons {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .skills-title {
+    font-size: 1.5rem;
+  }
+
+  .skill-card {
+    padding: 15px;
+  }
+
+  .description {
+    font-size: 0.9rem;
+  }
+}

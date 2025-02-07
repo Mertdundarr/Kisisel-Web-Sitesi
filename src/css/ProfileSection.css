@@ -1,0 +1,150 @@
+/* Profile Section */
+.profile-section {
+  max-width: 1250px;
+  margin: 60px auto;
+  padding: 50px;
+  background: #ffffff;
+  border-radius: 10px;
+
+}
+
+.profile-main-title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #1e293b;
+  margin-bottom: 40px;
+  text-align: left; /* Başlık solda hizalandı */
+}
+
+.profile-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.profile-details,
+.about-me {
+  flex: 1;
+  min-width: 300px;
+}
+
+.profile-subtitle {
+  font-size: 2.2rem;
+  color: #4f46e5;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.profile-details p {
+  display: grid; /* Grid yapısı ile sol ve sağ taraflar hizalanır */
+  grid-template-columns: 200px 1fr; /* Sol ve sağ sütunlar */
+  align-items: center; /* Dikey hizalama */
+  margin: 8px 0; /* Yazılar arasına boşluk */
+  color: #4b5563;
+  font-size: 1.3rem;
+}
+
+.profile-details p strong {
+  font-weight: bold;
+  color: #1e293b; /* Başlık yazı rengi */
+}
+
+.about-me p {
+  margin: 8px 0;
+  color: #4b5563;
+  font-size: 1.3rem;
+  line-height: 1.6;
+}
+
+.extra-spacing {
+  margin-bottom: 24px !important; /* Eğitim Durumu paragrafının altına ek boşluk */
+}
+
+.profile-details p:last-child {
+  margin-bottom: 0; /* Son paragrafın altında boşluk bırakma */
+}
+
+.profile-divider {
+  margin-top: 40px;
+  border: none;
+  border-top: 1px solid #4f46e5;
+  margin-top: 100px;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .profile-section {
+    padding: 40px; /* Daha küçük cihazlar için padding azaltıldı */
+  }
+
+  .profile-main-title {
+    font-size: 2.5rem; /* Başlık boyutu küçültüldü */
+  }
+
+  .profile-grid {
+    gap: 30px; /* Grid arasındaki boşluk azaltıldı */
+  }
+
+  .profile-details p,
+  .about-me p {
+    font-size: 1.2rem; /* Yazı boyutu biraz küçültüldü */
+  }
+
+  .profile-details p {
+    grid-template-columns: 150px 1fr; /* Sol sütun daraltıldı */
+  }
+}
+
+@media (max-width: 768px) {
+  .profile-section {
+    padding: 30px;
+  }
+
+  .profile-main-title {
+    font-size: 2rem;
+  }
+
+  .profile-grid {
+    flex-direction: column; /* Dikey hizalama */
+    align-items: center; /* İçerik merkezde */
+    gap: 20px;
+  }
+
+  .profile-details,
+  .about-me {
+    max-width: 100%; /* Tam genişlik */
+    text-align: left; /* Mobil cihazlar için hizalama sola çekildi */
+  }
+
+  .profile-details p {
+    grid-template-columns: 120px 1fr; /* Daha küçük ekranlar için sol taraf daraldı */
+  }
+
+  .profile-details p,
+  .about-me p {
+    justify-content: flex-start; /* Mobilde yazılar hizalı */
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .profile-section {
+    padding: 20px;
+  }
+
+  .profile-main-title {
+    font-size: 1.8rem;
+  }
+
+  .profile-details p {
+    grid-template-columns: auto; /* Mobilde alt alta hizalama */
+    flex-direction: column; /* Mobilde alt alta yazılacak */
+  }
+
+  .profile-details p,
+  .about-me p {
+    font-size: 1rem; /* Daha küçük ekranlar için yazı boyutu küçültüldü */
+    text-align: left;
+  }
+}
