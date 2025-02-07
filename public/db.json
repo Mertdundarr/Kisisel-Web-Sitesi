@@ -59,7 +59,7 @@
       "title": "fsweb-s8-challenge-pizza",
       "description": "React ile geliştirilmiş, duyarlı tasarıma sahip bir pizza sipariş uygulaması. Redux ile durum yönetimi sağlanırken, Axios ile API istekleri yönetilmektedir. Kullanıcılar pizza boyutu, hamur tipi ve ekstra malzemeleri seçerek sipariş oluşturabilir. Modern ve dinamik bir kullanıcı arayüzüne sahiptir.",
       "tags": ["react", "redux", "axios"],
-      "githubLink": "https://github.com/Mertdundarr/fsweb-s8-challenge-pizza.git",
+      "githubLink": "https://kisisel-web-sitesi-t7dx.vercel.app/",
       "liveSiteLink": "https://fsweb-s8-challenge-pizza-znac.vercel.app/",
       "image": "https://s3-alpha-sig.figma.com/img/64b8/0612/2ad18b91bc83b5e0c2524ee319ac4a12?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=W3N7lGr-jmYK9vPwvcGwH1IRx9-72AmNB5ThVYQI6xLOg1pTxZHJqqONECNTnjc8HVSbeBjVnDQLG2PZoo8mqr0E5q6PanVmwvLQr8emosJQXe6vwCJWo3GsRuKy4K02N7tjTZA~~x7nCq74aRrDuJm3rR0IeF9NyisYqAVmNiZOqd7nx6Rm4tkkV1XXvINk0IUq~4AzmME6y8EeLtIdXSB57ywz6hyhkgEuFXckOuFfQAGfdlHuTIVgUw0HYI~q1ohPAvW~lM-dPhnI6ePB1c6upr~~6PJea-07Jom~BnERhYyOClvIEsQOJcXvGDcQ6ZisBoDMEQPbzU3VEotTSg__"
     },
