@@ -11,7 +11,7 @@
     "linkedinLink": "https://www.linkedin.com/in/mert-d%C3%BCndar-1504b627b/"
   },
   "image": "https://s3-alpha-sig.figma.com/img/76b0/6993/b04fd1fa29a883e2f4b8b8577a5c82eb?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=P7PAabGrOnJExSvjHsaN~cJfS-7dQd1ayUTvuUDDtmFhNOMszwjFxaL3Xg3u7kP~PJO5vIoiwRZHJzoo86gKPzm-ANojjWe~efPHzSz76c5FVM435JSFyenJAHdDhLE62ne6Ni01UQBwBjIbcbdx6zoHSlNA-niLzP53~sdcNTb7YFn8W4bRlGt9LHOMx~8DNK~OF6K4eJDUZvQS80sJMd1x4AmlVlIgDs-Tfs3HJ4k9TScqPjZv3KWb8BRp5ym3pSsdAKcQ33jRStRmahH-4tYOmayyyDjiEe8eg5p3N24ni31CreoQGY1~DAY2AAMo2py5pm1TGxjZtEk-AjQubA__",
-  "skillsTitle": "Skills",
+  "skillsTitle": "Becerilerimi",
   "skills": [
     {
       "name": "JavaScript",
@@ -51,7 +51,7 @@
       "title": "Kisisel-Web-Sitesi",
       "description": "Kendi özelleştirmelerime uygun olarak geliştirdiğim, minimal ve şık tasarıma sahip bir web sitesi. React, Redux ve Axios kullanarak oluşturuldu. Veri yönetimi Redux ile sağlanırken, API istekleri Axios ile yönetilmektedir. Modern ve kullanıcı dostu bir arayüze sahiptir.",
       "tags": ["react", "redux", "axios"],
-      "githubLink": "https://github.com/Mertdundarr",
+      "githubLink": "https://github.com/Mertdundarr/Kisisel-Web-Sitesi.git",
       "liveSiteLink": "https://example.com/workintech",
       "image": "https://s3-alpha-sig.figma.com/img/ad50/81bf/69bb4825e42350e768340fdbec09d78b?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=imEc18StzOoQgwmN4zyWD-PIlFnDl-a805OcRt90uogjb7rjMvFJ6gwcVoNT5pdoJ4XPqd~OzZn-bV1hcZLtdp4kwi68HtjXiN8GK94xSG4LIu9rHByg2Dl5vMWvHNoSDMsz4fDFN9BuzOb4E8Kh-xzjcihpx045yRCEqrPauqyJIUlEg9RcM6jkbEQp8siqKW3hSx7htrczC9DwHaZ3QeW~J9Q-nB2Ox0oe5CihKybSKcN8fRfbM4i06W1BIC7Cqe7toRqxLpK~QcSUiBMgscOiudMr9rKaNlIHExbXovenmi77x6TxhKi~lx8QNE8vaDDGNCOvUYUh~L2cKFybsw__"
     },
@@ -59,7 +59,7 @@
       "title": "fsweb-s8-challenge-pizza",
       "description": "React ile geliştirilmiş, duyarlı tasarıma sahip bir pizza sipariş uygulaması. Redux ile durum yönetimi sağlanırken, Axios ile API istekleri yönetilmektedir. Kullanıcılar pizza boyutu, hamur tipi ve ekstra malzemeleri seçerek sipariş oluşturabilir. Modern ve dinamik bir kullanıcı arayüzüne sahiptir.",
       "tags": ["react", "redux", "axios"],
-      "githubLink": "https://github.com/Mertdundarr",
+      "githubLink": "https://github.com/Mertdundarr/fsweb-s8-challenge-pizza.git",
       "liveSiteLink": "https://example.com/randomjokes",
       "image": "https://s3-alpha-sig.figma.com/img/64b8/0612/2ad18b91bc83b5e0c2524ee319ac4a12?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=W3N7lGr-jmYK9vPwvcGwH1IRx9-72AmNB5ThVYQI6xLOg1pTxZHJqqONECNTnjc8HVSbeBjVnDQLG2PZoo8mqr0E5q6PanVmwvLQr8emosJQXe6vwCJWo3GsRuKy4K02N7tjTZA~~x7nCq74aRrDuJm3rR0IeF9NyisYqAVmNiZOqd7nx6Rm4tkkV1XXvINk0IUq~4AzmME6y8EeLtIdXSB57ywz6hyhkgEuFXckOuFfQAGfdlHuTIVgUw0HYI~q1ohPAvW~lM-dPhnI6ePB1c6upr~~6PJea-07Jom~BnERhYyOClvIEsQOJcXvGDcQ6ZisBoDMEQPbzU3VEotTSg__"
     },
@@ -67,7 +67,7 @@
       "title": "Film-Uygulaması",
       "description": "React, Redux ve Axios kullanılarak geliştirilmiş bir film keşfetme ve izleme listesi oluşturma uygulaması. Redux ile durum yönetimi sağlanırken, Axios ile film verileri API üzerinden çekilmektedir. Kullanıcılar popüler filmleri görüntüleyebilir, favorilerine ekleyebilir ve detaylarını inceleyebilir. Modern ve kullanıcı dostu bir arayüze sahiptir.",
       "tags": ["react", "redux", "axios"],
-      "githubLink": "https://github.com/Mertdundarr",
+      "githubLink": "https://github.com/Mertdundarr/Film-Uygulama.git",
       "liveSiteLink": "https://example.com/journey",
       "image": "https://s3-alpha-sig.figma.com/img/600e/630b/a9370e031b441737654465d0f374af51?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=KAJEIqohxZ6jiHR3po1yIUvTEAoZcZz6Ok6OxfulEbqAAVfUnm9JiJ5HzuvMF9BymFPvHtoPcS7n9q8gDt8l6q4u1bCwWKN33ee~EwtqyWyTuOW3cwd5Ba6eUY5PfgMxwYYDnku9sVKCyk6EpzfslNqAbcVaoCkTzqc6T-LGiKJ52cWfX2vvzPyyUq3CJ52gfnO3-C1NEWaNLyhDdQLEfQZUnIKaN2OLLNOnSof4cGViiLzPpLR4TbNSZeS1yfHnaJNeQ7mD~iE-94nsAGp8OsZrhbAQOQ2bDQrr3~OxX2AJhMlQRa-8zK~F~1qRqmiRGAy4Grgh5FG6fwZa~emTqw__"
     }
